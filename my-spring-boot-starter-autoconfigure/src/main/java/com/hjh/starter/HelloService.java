@@ -12,6 +12,6 @@ public class HelloService {
     HelloProperties helloProperties;
 
     public String sayHello(String name) {
-        return helloProperties.getPrefix() + "-" + name + "-" + helloProperties.getSuffix();
+        return helloProperties.getPrefix() + "~~" + name + "--" + helloProperties.getSuffix();
     }
 }
